@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="GlideImageView">
+        <attr name="show_progress" format="boolean" />
+        <attr name="error_res" format="reference" />
+        <attr name="placeholder_res" format="reference" />
+    </declare-styleable>
+</resources>
