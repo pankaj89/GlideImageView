@@ -7,7 +7,32 @@ GlideImageView used to show loader(Progress bar while loading image from url)
 ### Download
 Include the following dependency in your apps build.gradle file.
 ```
-compile 'com.master.android:permissionhelper:1.0'
+compile 'com.master.android:glideimageview:1.0'
+```
+
+###How to use
+#### in xml
+```
+<com.master.glideimageview.GlideImageView
+        android:id="@+id/glide_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@mipmap/ic_launcher"
+        app:error_res="@drawable/no_image"
+        app:placeholder_res="@mipmap/ic_launcher"
+        app:show_progress="true" />
+```
+
+You can hide/show progress while loading using 
+```
+app:show_progress="false|true"
+```
+
+#### in java
+```
+glideImageView = (GlideImageView) findViewById(R.id.glide_image_view);
+glideImageView.loadImageUrl("https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Pizigani_1367_Chart_10MB.jpg/800px-Pizigani_1367_Chart_10MB.jpg");
 ```
 
 ### Libraries Used
