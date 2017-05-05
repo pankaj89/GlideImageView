@@ -10,7 +10,7 @@ Include the following dependency in your apps build.gradle file.
 compile 'com.master.android:glideimageview:1.0'
 ```
 
-###How to use
+### How to use
 #### in xml
 ```
 <com.master.glideimageview.GlideImageView
