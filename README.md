@@ -1,4 +1,4 @@
-# Permission Helper
+# GlideImageView
 
 [![N|Solid](https://img.shields.io/badge/Android%20Arsenal-GlideImageView-brightgreen.svg)](https://android-arsenal.com/details/1/5719)
 
