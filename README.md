@@ -1,6 +1,6 @@
 # Permission Helper
 
-[![N|Solid](https://img.shields.io/badge/Android%20Arsenal-PermissionHelper-brightgreen.svg)](https://android-arsenal.com/details/1/5532)
+[![N|Solid](https://img.shields.io/badge/Android%20Arsenal-GlideImageView-brightgreen.svg)](https://android-arsenal.com/details/1/5719)
 
 GlideImageView used to show loader(Progress bar while loading image from url)
   
