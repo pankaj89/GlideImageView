@@ -3,11 +3,21 @@
 [![N|Solid](https://img.shields.io/badge/Android%20Arsenal-PermissionHelper-brightgreen.svg)](https://android-arsenal.com/details/1/5532)
 
 GlideImageView used to show loader(Progress bar while loading image from url)
+
+### Latest Version [2.0]
+- Worked with any parent layout with center aligned progress bar.
+- Updated Glide library to 3.8.0
+- Added different methods to load into GlideImageView. [#2](https://github.com/pankaj89/GlideImageView/issues/2)
+- Change Style of progress bar from layout like
+```
+style="?android:attr/progressBarStyleSmall"
+```
+
   
 ### Download
 Include the following dependency in your apps build.gradle file.
 ```
-compile 'com.master.android:glideimageview:1.0'
+compile 'com.master.android:glideimageview:2.0'
 ```
 
 ### How to use

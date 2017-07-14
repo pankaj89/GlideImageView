@@ -4,5 +4,6 @@
         <attr name="show_progress" format="boolean" />
         <attr name="error_res" format="reference" />
         <attr name="placeholder_res" format="reference" />
+        <attr name="progress_bar_style" format="reference" />
     </declare-styleable>
 </resources>

@@ -17,14 +17,19 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <com.master.glideimageview.GlideImageView
-        android:id="@+id/glide_image_view"
+    <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:scaleType="fitXY"
-        android:src="@mipmap/ic_launcher"
-        app:error_res="@drawable/no_image"
-        app:placeholder_res="@mipmap/ic_launcher"
-        app:show_progress="true" />
+        android:layout_height="wrap_content">
 
+        <com.master.glideimageview.GlideImageView
+            android:id="@+id/glide_image_view"
+            style="?android:attr/progressBarStyleSmall"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:scaleType="fitXY"
+            android:src="@mipmap/ic_launcher"
+            app:error_res="@drawable/no_image"
+            app:placeholder_res="@mipmap/ic_launcher"
+            app:show_progress="true" />
+    </FrameLayout>
 </LinearLayout>
