@@ -2,7 +2,7 @@ apply plugin: 'com.android.library'
 ext {
     PUBLISH_GROUP_ID = 'com.master.android'
     PUBLISH_ARTIFACT_ID = 'glideimageview'
-    PUBLISH_VERSION = '2.0'
+    PUBLISH_VERSION = '2.1'
 }
 android {
     compileSdkVersion 25

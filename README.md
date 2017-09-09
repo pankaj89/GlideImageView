@@ -4,20 +4,15 @@
 
 GlideImageView used to show loader(Progress bar while loading image from url)
 
-### Latest Version [2.0]
-- Worked with any parent layout with center aligned progress bar.
-- Updated Glide library to 3.8.0
-- Added different methods to load into GlideImageView. [#2](https://github.com/pankaj89/GlideImageView/issues/2)
-- Change Style of progress bar from layout like
-```
-style="?android:attr/progressBarStyleSmall"
-```
+### Latest Version [2.1]
+- Added method to set application context via (setApplicationContext()), Use this method before loading url.
+- Added Singleton request Manager for efficient loading.
 
   
 ### Download
 Include the following dependency in your apps build.gradle file.
 ```
-compile 'com.master.android:glideimageview:2.0'
+compile 'com.master.android:glideimageview:2.1'
 ```
 
 ### How to use
@@ -31,6 +26,7 @@ compile 'com.master.android:glideimageview:2.0'
         android:src="@mipmap/ic_launcher"
         app:error_res="@drawable/no_image"
         app:placeholder_res="@mipmap/ic_launcher"
+        style="?android:attr/progressBarStyleSmall"
         app:show_progress="true" />
 ```
 
